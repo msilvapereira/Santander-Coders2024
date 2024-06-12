@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        
+        <form action="" method="post">
+            <div>
+                <label for="texto">Input de texto: </label>
+                <input type="text" id="texto" name="nome">
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="data">Data de nascimento: </label>
+                <input type="date" id="data" name="date">
+            </div>
+
+            <div>
+                <label for="hora">Horário: </label>
+                <input type="time" id="hora" name="data">
+            </div>
+
+            <div>
+                <label for="qualquer">Input:</label>
+                <input type="number" id="qualquer" name="qualquer">
+            </div>
+
+            <div>
+                <label for="qualquer">Escolha um arquivo:</label>
+                <input type="file" id="qualquer" name="qualquer">
+            </div>
+
+            <div>
+                <label for="qualquer">Url:</label>
+                <input type="url" id="qualquer" name="qualquer">
+            </div>
+
+            <div>
+                <label for="qualquer">Color:</label>
+                <input type="color" id="qualquer" name="qualquer">
+            </div>
+
+            <div>
+                <label for="qualquer">Range:</label>
+                <input type="range" id="qualquer" name="qualquer" value="100" max="200" min="100">
+            </div>
+
+            <div>
+                <label for="qualquer">Tipo checkbox</label>
+                <input type="checkbox" id="qualquer" name="qualquer">
+            </div>
+
+            <div>
+                <label for="qualquer">Tipo radio</label>
+                <input type="radio" id="qualquer" name="qualquer">
+            </div>
+
+            <div>
+                <label for="qualquer"></label>
+                <input type="reset" id="qualquer" name="qualquer" value="Limpar">
+            </div>
+            
+            <div>
+                <input type="submit" id="qualquer" name="qualquer" value="Enviar">
+            </div>
+
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma das opções...</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferência</option>
+                </select>
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>
