@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%
+}
+
+body {
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 9.6rem; /*pixels são uma medida fixa */
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Roboto', arial, cursive;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', arial, cursive;
+}
