@@ -13,12 +13,34 @@ body {
 
 h1 {
     color: blueviolet;
-    font-size: 9.6rem; /*pixels são uma medida fixa */
+    font-size: 3.2rem; /*pixels são uma medida fixa */
     font-weight: 900;
     text-align: center;
     font-family: 'Roboto', arial, cursive;
 }
 
-h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', arial, cursive;
+h2 {
+    font-size: 3.2rem;
+}
+
+.novo-em {
+    font-size: 85%;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 90px;
+}
+
+a {
+    color: darkgreen;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: coral;
 }
